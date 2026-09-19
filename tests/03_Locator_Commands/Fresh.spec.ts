@@ -19,7 +19,7 @@ test ('tc#1 -Verify the Vwo page is loaded', async({page})=>{
 
     // await expect(errorMessage) (Actual: "Your email, password, IP address or location did not match"
 
-    await page.pause();
+    await page.pause(); 
 });
 
 //npx playwright show report
