@@ -8,10 +8,10 @@ async function saveSession() {
     let page = await context.newPage();
 
     await page.goto("https://app.wingify.com/#/login");
-    await.page.waitforTimeout
+    await page.waitForTimeout(2000);
 
-    await page.fill('#login-username', VWO_USER);
-    await page.fill('#login-password', VWO_PASS);
+    await page.fill('#login-username', 'VWO_USER');
+    await page.fill('#login-password', 'VWO_PASS');
 
     await page.click('#js-login-btn');
 

@@ -1,7 +1,7 @@
 import {test, expect} from '@playwright/test';
 import { text } from 'node:stream/consumers';
 
-test('Verify the Testcase', async ({page}) => {
+test('Verify the Pagintation', async ({page}) => {
    await page.goto("https://app.thetestingacademy.com/playwright/webtable");
   
 
@@ -20,8 +20,5 @@ test('Verify the Testcase', async ({page}) => {
    }
 
    await next.click();
-
-   await page.waitForTimeout(5000);
-
 
 });

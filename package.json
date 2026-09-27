@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "allure:generate": "npx allure generate allure-results --clean -o allure-report",
+    "allure:open": "npx allure open allure-report",
+    "allure:serve": "npx allure serve allure-results"
+  },
+  "start-pw": "node ./scripts/start-pw.js",
   "keywords": [],
   "author": "Santhosh",
   "license": "MIT",
@@ -11,6 +17,7 @@
   "devDependencies": {
     "@playwright/test": "^1.63.0",
     "@types/node": "^26.5.0",
+    "allure-commandline": "^2.19.0",
     "allure-playwright": "^3.12.2",
     "dotenv": "^18.0.2"
   }
