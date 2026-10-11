@@ -1,0 +1,3 @@
+
+
+await pageXOffset.keybaord.press
