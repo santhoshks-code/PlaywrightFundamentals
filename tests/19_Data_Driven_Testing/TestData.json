@@ -1,0 +1,17 @@
+[
+{
+    "name": "Santhosh",
+    "experience": 15,
+    "isTrainer": false,
+    "middleName": "",
+    "skills": [
+        "JavaScript",
+        "PlayWright",
+        "TypeScript"
+    ],
+    "address": {
+        "city": "Brussels",
+        "country": "Belgium"
+    }
+}
+]
